@@ -1,4 +1,4 @@
-/*general*/
+/* general */
 
 * {
   box-sizing: border-box;
@@ -10,20 +10,19 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Frame and background*/
-
 .container {
-  
   display: flex;
   align-items: center;
   justify-content: center;
   position: absolute;
+  top: 0;
   left: 0;
   right: 0;
-  top: 0;
   bottom: 0;
-  
 }
+
+/* frame and background */
+
 .frame {
   height: 762px;
   width: 762px;
@@ -45,14 +44,14 @@ body {
 .game.night {
   width: 716px;
   top: 62px;
-  left:-19px;
+  left: -19px;
 }
 
 .hidden {
   display: none;
 }
 
-/*buttons*/
+/* buttons */
 
 .buttons {
   position: absolute;
@@ -60,10 +59,9 @@ body {
   left: 266px;
   height: 71px;
   width: 228px;
-
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .icons {
@@ -75,11 +73,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
 }
 
-
-/*poop bag*/
+/* lol poop */
 
 .poop-bag {
   position: absolute;
@@ -87,29 +83,32 @@ body {
   left: 160px;
 }
 
+/* modal */
+
+.modal-inner {
+  background-color: blueviolet;
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
 .modal {
   position: absolute;
   top: 0;
-  left:0;
+  left: 0;
   right: 0;
-  background-color: peru;
-  color: white;
-  padding: 25px;
-  font-size: 20px;
-  font-weight: bold;
-  border-radius: 12px;
 }
-
-
 
 .modal:empty {
   display: none;
-
 }
 
 .modal-inner:empty {
   display: none;
 }
+
+/* the fox */
 
 .fox {
   position: absolute;
@@ -123,17 +122,14 @@ body {
   left: 159px;
 }
 
-
 .fox-celebrate {
   top: 290px;
   left: 290px;
 }
 
-
 .fox-rain {
   top: 362px;
 }
-
 
 .fox-hungry {
   top: 362px;
@@ -157,8 +153,6 @@ body {
   top: 380px;
   left: 243px;
 }
-
-
 
 
 /*# sourceMappingURL=/style.e308ff8e.css.map */

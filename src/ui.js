@@ -12,8 +12,3 @@ export const writeModal = function writeModal(text = "") {
     ".modal"
   ).innerHTML = `<div class="modal-inner">${text}</div>`;
 };
-
-
-
-
-
